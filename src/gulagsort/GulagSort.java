@@ -187,7 +187,7 @@ public class GulagSort {
 
 		double[] sorted = new double[nums.length + 1];
 		double[] notSorted = new double[nums.length + 1];
-		int cS = 1, cNS = 0;//num of elements
+		int cS = 1, cNS = 0; //num of elements
 		sorted[0] = nums[0];
 		for (int i = 1; i < nums.length; i++) {
 			if (nums[i] >= sorted[cS - 1]) {
